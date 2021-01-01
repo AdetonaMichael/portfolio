@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Blog" />
+  <meta name="author" content="Ogechi" />
+  <title>Michael Aetona</title>
+  <!------------------------------------C D N-------------------------------------------------------------------------
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    ------------------------------END C D N------------------------------------------------------------------------>
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="all" href="css/main.css">
+  <link rel="stylesheet" href="vendor/fontawesome-free-5.3.1-web/css/all.min.css">
+  <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/oge.css">
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+  <link rel="icon" href="images/theodolite.png">
+</head>
+
+
+<nav class="navbar sticky-top navbar-expand-lg bg-light navbar-light">
+  <a class="navbar-brand" href="#"><img src="images/theodolite.png" title="image by monkik" width="47px" alt="logo"></a>
+  <button class="navbar-toggler" style="border:none;" type="button" data-toggle="collapse"
+    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+    aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#home">HOME <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">ABOUT</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          SERVICES
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Web design & development</a>
+          <a class="dropdown-item" href="#">Geodatabase design and implimentation</a>
+          <a class="dropdown-item" href="#">Land Surveying</a>
+          <a class="dropdown-item" href="#">Land Agent and Consultancy</a>
+          <a class="dropdown-item" href="#"> Typist (60 words per min)</a>
+          <a class="dropdown-item" href="#">Search Engine Optimization (SEO)</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Map Making</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">CONTACT</a>
+      </li>
+    </ul>
+
+  </div>
+</nav>
+
+
+<body>
+
+  <section id="home">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 hero_text">
+          <h1>Michael Adetona</h1>
+          <p class="job_title">Surveyor ● Developer</p>
+          <a href="#mail" class="btn btn-fill">Hire Me</a>
+          <a href="geosuv.com.ng" class="btn btn-border">Visit My Blog</a>
+            <p class="typo">I'M a <span class="animate"></span></p>
+            <script src="typed.js"></script>
+            <script>
+              var typed = new Typed('.animate',{
+                strings:[
+                  "Surveyor",
+                  "Developer",
+                  "GIS Specialist"
+                ],
+                typeSpeed: 50,
+                backSpeed:50,
+                 loop:true
+              });
+            </script>
+        </div>
+        <div class="col-md-6">
+          <img class="img-thumbnail" style="border:none;" alt="creator-image" src="images/me3.jpg">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about mb-5">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 text-design text-center">
+          <h2 class="text-center mt-5"> About </h2>
+          <img src="images/lines.svg" class="img-responsive " alt="line-image">
+          <p class="text-center mt-5">Dynamic and detail-oriented Full-stack web developer, Surveyor and GIS Specialist. with a knack for conceptualizing 
+          and delivering elegant, user-friendly solutions effectively and efficently. </p>
+          <p>Posses a track record for developing a Surveying blog that ranks Number one on Google search engine
+          , Developed online platforms and application to automate complicated surveying tasks. </p>
+          <p>Armed with extensive understanding of SQL, geoprocessing tools and cloud. </p>
+          <p>Regular participant and organizer of local hackathons, mapathons and developer meetups</p>
+          <a href="cv.php" target="blank"class="btn btn-fill text-white mb-5">Download My CV</a>
+          <br />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 what-ido bg-white text-design text-center mb-5 ">
+          <h2 class="mt-5">What I Do</h2>
+          <img src="images/lines.svg" class="img-responsive">
+          <div class="mt-5 row mb-5 text-dark">
+            <div class="col-md-3">
+              <h3 class="mb-2" title="Web design and development"><b>WEB</b><span
+                  class="fas fa-code text-danger"></span></span></h3>
+                  <p>4<sup>+</sup> years experienced Full Stack Web Developer, still looking to enhance my experience
+                 with an IT company that specializes in Web Design and Development. Armed with a deep sense of responsibility and possessing very high levels of enthusiasm 
+                to give as much as required for any endeavor</p>
+        </p>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-3">
+              <h3 class="mb-2" title="Geographic Information System"><b>GIS</b><span
+                  class="fas fa-map-marked-alt text-primary"></span></h3>
+            Dedicated and hardworking  GIS specialist with 3 years experience working with Arc GIS software and Arc Editor for developing GIS databases and data creation with a snapping tolerance
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-3">
+              <h3 class="mb-2" title="Land Surveying and mapping"><b>Land Surveying</b><span
+                  class="fas fa-drafting-compass text-success"></span></h3>
+                  As a surveyor, i am capable of performing surveying and mapping services for private/public client projects. investigate and resolves unusual problems involving property disputes such as encroachment, locating property  corners and retracing legal descriptions.
+             <p>i have a working knowledge of modern survey instruments and data processing software
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class=" mt-5" id="portfolio">
+    <div style="margin-top:250px;" class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2>MY RECENT WORKS</h2>
+          <img src="images/lines.svg" alt="line-image">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <div class="row mt-5">
+            <div class="col-md-6 mycontainer text-center mt-5">
+              <img src="images/p1.png" style="border:none" alt="imag" class="img-thumbnail">
+              <div class="overlay">
+                <div class="text">
+                  <h2>Surveying blog</h2>
+                  <p><a href="#"><span class="fas fa-eye"></span></a><a href="https://geosuv.com.ng"><span class="fas fa-link"> </span></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mycontainer text-center mt-5">
+              <img src="images/oge.png" alt="imag" style="border:none;" class="img-thumbnail">
+              <div class="overlay">
+                <div class="text">
+                  <h2>Client's blog</h2>
+                  <p><a href="#"><span class="fas fa-eye"></span></a><a href="#"><span class="fas fa-link"> </span></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <div class="row mt-5">
+            <div class="col-md-6 mycontainer text-center mt-5">
+              <img src="images/mysurvey_plan.png" height="200" style="border:none;" alt="imag" class="img-thumbnail">
+              <div class="overlay">
+                <div class="text">
+                  <h2>Recent Boundry Survey</h2>
+                  <p><a href="#"><span class="fas fa-eye"></span></a><a href="#"><span class="fas fa-link"> </span></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mycontainer text-center mt-5">
+              <img src="images/map.jpg"  style="border:none;" alt="imag" class="img-thumbnail">
+              <div class="overlay">
+                <div class="text">
+                  <h2>Choropleth Map</h2>
+                  <p><a href="#"><span class="fas fa-eye"></span></a><a href="#"><span class="fas fa-link"> </span></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About-->
+  <section id="about" class="about-section mt-5">
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-12 text-center mt-5 mb-5">
+          <h2>Technical Skills</h2>
+          <img src="images/lines.svg" alt="line-image">
+        </div>
+      </div>
+      <div class="row">
+        <div data-animate="fadeInUp" class="col-lg-6">
+          <div class="skill-item">
+            <div class="progress-title "><b>WEB Technologies and Framework</b></div>
+            <p class="text-design">HTML5 <span class="fab fa-html5"></span>  CSS3, <span class="fab fa-css3"></span> BOOSTRAP </p>
+            <div class="progress">
+              <div role="progressbar" style="width: 60%" aria-valuenow="0" aria-valuemin="60" aria-valuemax="100"
+                class="progress-bar progress-bar-striped bg-info"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="progress-title"><b>Script/UI</b></div>
+            <p class="text-design">JAVASCRIPT, <span class="fab fa-java"></span> JQUERY<span class="fab fa-js-square"></span>,  PHP<span class="fab fa-php"></span></p>
+            <div class="progress">
+              <div role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="60" aria-valuemax="100"
+                class="progress-bar progress-bar-striped bg-info"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="progress-title"><b>Database and ORM</b></div>
+            <p class="text-design">MYSQL  PYMYSQL</p>
+            <div class="progress">
+              <div role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
+                class="progress-bar progress-bar-striped bg-info"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="progress-title"><b>Web Debugging tools</b></div>
+            <p class="text-design">CHROME DEVELOPER TOOLS<span class="fab fa-chrome"></span>, MOZILA FIREBUG (DEBUGGER)</p>
+            <div class="progress">
+              <div role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
+                class="progress-bar progress-bar-striped bg-info"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="progress-title"><b>Application / Web server</b></div>
+            <p class="text-design">APACHE SERVER</p>
+            <div class="progress">
+              <div role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
+                class="progress-bar progress-bar-striped bg-info"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="progress-title"><b>Surveying tools</b></div>
+            <p class="text-design">AUTOCAD, ENVI, Total Station</p>
+            <div class="progress">
+              <div role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
+                class="progress-bar progress-bar-striped bg-info"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+        <div class="skill-item">
+            <div class="progress-title"><b>GIS tools</b></div>
+            <p class="text-design">ARC GIS, JOSM, GIS PROFESSIONAL </p>
+            <div class="progress">
+              <div role="progressbar" style="width: 60%" aria-valuenow="0" aria-valuemin="60" aria-valuemax="100"
+                class="progress-bar progress-bar-striped bg-info"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="progress-title"><b>Versioning and other tools</b></div>
+            <p class="text-design">GIT<span class="fab fa-github"></span>, CAMTASIA</p>
+            <div class="progress">
+              <div role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="60" aria-valuemax="100"
+                class="progress-bar progress-bar-striped bg-info"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="progress-title"><b>Programming Lanuguage</b></div>
+            <p class="text-design">Python</p>
+            <div class="progress">
+              <div role="progressbar" style="width: 75%" aria-valuenow="70" aria-valuemin="60" aria-valuemax="100"
+                class="progress-bar progress-bar-striped bg-info"></div>
+            </div>
+          </div>
+
+        </div>
+        </div>
+      </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row">
+          <div class="col-md-12 mt-5">
+            <h2>Certifications<span style="color:gold;" class="fas fa-trophy"></span></h2>
+            <img src="images/lines.svg" alt="line-image">
+          </div>
+      </div>
+      <div class="row">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/cert1.png" class="d-block w-100 tales" alt="image3">
+    </div>
+    <div class="carousel-item">
+      <img src="images/cert2.png" class="d-block w-100 tales" alt="image2">
+    </div>
+    <div class="carousel-item">
+      <img src="images/cert4.png" class="d-block w-100 tales" alt="image1">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-xs-12 mt-5">
+          <h2 class="mt-5">CONTACT</h2>
+          <img src="images/lines.svg" alt="line-image">
+        </div>
+      </div>
+
+      <div class="row">
+        <div id="mail" class="col-md-12">
+          <form action="mailto:powerofelectron616@gmail.com" method="POST" >
+            <div class="form-group form2">
+            <input type="text" class="form-control ml-1" id="name" placeholder="Enter Your Full Name" !important>
+               <br/>
+              <input type="email" class="form-control ml-2" id="email" placeholder="Enter Your Email" !important>
+              <br/>
+            </div>
+
+            <div class="form-group">
+              <textarea style="height:150px;" type="textarea" class="form-control" name="textarea" id="textarea"
+                placeholder="Enter your Message here"></textarea>
+            </div>
+
+            <div class="text-center mb-5">
+              <button type="submit" class="btn btn-fill">Send<span
+                  class="fas fa-envelope text-white ml-2"></span></button>
+            </div>
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+</body>
+<section id="footer-section">
+<footer>
+  <div class="container-fluid bg-dark mt-5 pt-3 text-white">
+    <div class="row footer ">
+      <div class="col-md-1"></div>
+      <div class="col-md-3">
+        <span style="padding:10px; border-radius:45px; " class="fab fa-facebook bg-primary text-white"></span>
+        <span style="padding:10px; border-radius:45px; " class="fab fa-twitter bg-success text-white"></span>
+        <span style="padding:10px; border-radius:45px; " class="fab fa-youtube bg-danger text-white"></span>
+      </div>
+      <div class="col-md-8 ">
+        <p class="text-black text-center">Copyright &copy;
+          <?php echo date("Y") ?> All rights reserved | Michael's Porftfolio<i class="icon-heart"
+            aria-hidden="true"></i> <a href="#" target="_blank"></a> </p>
+      </div>
+
+    </div>
+  </div>
+</footer>
+</section>
+
+</html>

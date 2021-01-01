@@ -1,0 +1,154 @@
+p, {
+
+	font-family: cursive;
+    font-size: large;
+}
+body #home{
+	background:url(../images/hero.jpg) no-repeat center / cover;
+}
+#home .img-thumbnail{
+	background:transparent;
+}
+body #skills{
+
+}
+body #about{
+	background-color:white;
+
+}
+body .text-design{
+	font-family: cursive;
+    font-size: large;
+}
+body #services{
+	background:url(../images/sur5.jpg) no-repeat center / cover;
+	background-color:black;
+	background-attachment:fixed;
+}
+body #contact{
+
+
+}
+body #portfolio{
+}
+
+@media (min-width:992px){
+		.navbar-nav .nav-link:hover{
+			border-bottom:2px solid black;
+			padding-right:38px;
+		}
+	}
+	
+.navbar-nav .nav-link{
+	font:bold 14px tahoma;
+	color:#212121;
+}
+#navbarSupportedContent  .dropdown-item:hover{
+	background-color:#000000;
+	color:#ffffff;
+}
+.hero h1{
+	font-size: 46px;
+    font-weight: 700;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+}
+.job_title {
+    font-size: 22px;
+    margin-bottom: 30px;
+    line-height: 1;
+}
+.btn-fill{
+	color: white;
+    background-color: black;
+	font: bold 14px tahoma;
+}
+.btn{
+	    min-width: 145px;
+    line-height: 50px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+border-radius: 0;}
+.btn:hover, .btn:focus {
+    box-shadow: 0px 10px 18px 0px rgba(0, 0, 0, 0.15);
+}
+.btn-border {
+    background-color: transparent;
+	color: #212121;
+	outline-style:double;
+    border: 2px solid #212121;
+}
+body #services .what-ido{
+	top: 190px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+}
+
+/* .mycontainer {
+	position: relative;
+	width: 50%;
+  } */
+
+.image {
+	display: block;
+	width: 100%;
+	height: auto;
+  }
+  
+  .overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity:0.5;
+	background-color:#000000;
+	overflow: hidden;
+	width: 0;
+	height: 100%;
+	transition: .5s ease;
+  }
+  
+  .mycontainer:hover .overlay {
+	width: 100%;
+  }
+  
+  .text {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	white-space: nowrap;
+  }
+  #portfolio span{
+	  padding:10px;
+	  border:2px solid white;
+	  border-radius:45px;
+  }
+  #form-section form input{
+	  border:1px solid darkolivegreen
+  }
+  #form-section form textarea{
+	  height:250px;
+  }
+
+.form1, .form2 {
+	display:flex;
+}  
+@media (max-width:760px){
+	.form1,.form2{
+		display:block;
+	}
+}
+#home .typo{
+	margin-top: 10px;
+    background-color: black;
+    width: 327px;
+    padding: 10px;
+    font: bold 24px tahoma;
+    color: white;
+}

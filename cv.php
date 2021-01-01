@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio" />
+  <meta name="author" content="Michael" />
+  <title>Michael Aetona</title>
+  <!------------------------------------C D N-------------------------------------------------------------------------
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    ------------------------------END C D N------------------------------------------------------------------------>
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="all" href="css/main.css">
+  <link rel="stylesheet" href="vendor/fontawesome-free-5.3.1-web/css/all.min.css">
+  <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/oge.css">
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+  <link rel="icon" href="images/theodolite.png">
+  <style>
+      body .cv_l3{
+	background-color: #01386d;
+	color:white;
+}
+    body .cv_l3_h{
+        background-color:#002b55;
+        padding:10px;
+        font:bold 14px tahoma;
+    }
+    body .download_button{
+    /* position: relative; */
+    z-index: 4;
+    /* left: 714px; */
+    /* top: 18px; */
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 45px;
+    }
+    body .download_button:hover{
+        background-color:#002b55;
+    }
+    body .mypaper{
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+    }
+  </style>
+</head>
+
+<body>
+<a href="resorurces/michael_cv.pdf" view><span class="fas fa-download fa-2x sticky-top download_button"></span></a>
+  <div class="container mt-5 mb-5">
+      <div class="row mypaper">
+         <div class="col-md-4 cv_l3 pt-4">
+         <h2>Michael Adetona</h2>
+         <h5>Surveyor ● Developer</h5>
+         <br/>
+         <p class="cv_l3_h"><b>Personal info</b></p>
+         <br/>
+         <p><span class="fas fa-marker"> </span><b>Address</b></p>
+         <p>Space Club secretariat</p>
+         <p>Faculty of Agriculture</p> 
+         <p>Obafemi Awolowo University</p>
+         <p>ile-ife</p> 
+         <p>Osun-state</p> 
+         <p>Nigeria.</p>
+         <br/>
+         <p><span class="fas fa-mobile mt-5"> </span> +2349023011622</p>
+         <p><span class="fas fa-envelope"></span>powerofelectron616@gmail.com</p>
+         <p><a href="https://geosuv.com.ng" class="text-white" target="blank"><span class="fas fa-globe-africa"></span> geosuv.com.ng</a></p>
+         <p><span class="fab fa-linkedin"> </span> Michael Adetona</p>
+         <p><span class="fab fa-facebook"></span> Michael Adetona</p>
+         <p><span class="fab fa-twitter text-primary"></span> Michael Adetona</p>
+         <br/>
+         <p class="cv_l3_h mt-5">Soft Skills</p>
+          <p>Leadership</p>
+          <div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+  </div>
+</div>
+          <p>Colaboration</p>
+          <div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+  </div>
+</div>
+          <br/>
+         <p class="cv_l3_h">Hard Skills</p>
+          <p>Web Design and Development</p>
+          <div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+  </div>
+</div>
+<p>Geographic information System </p>
+          <div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+  </div>
+</div>
+          <p>Search Engine Optimization</p>
+          <div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+  </div>
+</div>
+          <p></p>
+          <br/>
+          <p class="cv_l3_h">Languages</p>
+          <p>English</p>
+         </div>
+         <div class="col-md-8 pt-4">
+           <h2>Summary</h2>
+           <p>Dynamic and detail-oriented full-stack web developer, Surveyor and GIS Specialist. with a knack for conceptualizing and delivering elegant, user-friendly solutions effectively and efficently.
+
+Posses a track record for developing a Surveying blog that ranks Number one on Google search engine , Developed online platforms and application to automate complicated surveying tasks.
+
+Armed with extensive understanding of SQL, geoprocessing tools and cloud.
+
+Regular participant and organizer of local hackathons, mapathons and developer meetups</p>
+
+<hr/>
+            <h4>Education</h4>
+            <hr>
+            <div class="row">
+            <div class="col-md-2">
+                   <p>Inview</p>
+                </div>
+                <div class="col-md-10">
+                    <h4>Obafemi Awolowo University</h4>
+                  <p>Faculty: Environmental Design and Management</p></li> 
+                    <li><p>Course of Study: BSc. Surveying and Geoinformatics</p></li> 
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                   <p>2011-2014</p>
+                </div>
+                <div class="col-md-10">
+                    <h4>Falomo Senior High School</h4>
+                    <ul>
+                    <li><p>Akanbi Daramola street, Ikoyi south-west Lagos.</p></li> 
+                 <li><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, sequi?</p></li> 
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                   <p>2008-2011</p>
+                </div>
+                <div class="col-md-10">
+                    <h4>Falomo Junior High School </h4>
+                    <ul>
+                    <li><p>Akanbi Daramola street, Ikoyi south-west Lagos.</p></li> 
+                  <li><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, sequi?</p></li> 
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                   <p>2004-2008</p>
+                </div>
+                <div class="col-md-10">
+                    <h4>Onward Preparatory School</h4>
+                    <ul>
+                    <li><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, sequi?</p></li> 
+                  <li><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, sequi?</p></li> 
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                   <p>2001-2004</p>
+                </div>
+                <div class="col-md-10">
+                    <h4>Eraco Methodist School </h4>
+                    <ul>
+                    <li><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, sequi?</p></li> 
+                  <li><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, sequi?</p></li> 
+                    </ul>
+                </div>
+                
+            </div>
+            <hr/>
+            <h4> Work Experience</h4>
+            <hr>
+            <div class="row">
+                <div class="col-md-2">
+                   <p>2019-01 </p>
+                </div>
+                <div class="col-md-10">
+                    <h4>Toshmap Global Multi-Ent</h4>
+                   <p>Address: No.2 Mbabi Mbayo Street, Off Road 7, P.O Box 1665, ile-ife, Osun-state.</p>
+                   <p>toshmapglobalmultient630@gmail.com</p>
+                   <p>+2348034061039</p>
+                   <p>Position Occupied: <b>Intern</b></p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2">
+                   <p>2013-06</p>
+                </div>
+                <div class="col-md-10">
+                    <h4>AFRIGIST</h4>
+                    <p>African Regional Institute for Geospatial Information Science and Technology</p>
+                   <p>Off Road 1, Obafemi Awolowo University campus, P.M.B:5545 ife-central, ile-ife, Osun-state.</p>
+                   <p>+234154301970</p>
+                   <p>Position Occupied: <b>Intern</b></p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2">
+                   <p>2013-06</p>
+                </div>
+                <div class="col-md-10">
+                    <h4>Space Club OAU</h4>
+                  <p>Students for the Exploration & Development of Space, SEDS-Nigeria.</p>
+                  <p>Address: Space Club Secretariat, Ajose lecture theatre basement, faculty of Agriculture, Obafemi Awolowo University, ile-ife, Osun-State, Nigeria</p>
+                  <p>Affiliated to the African Regional Centre for Space and Technology Education in English ARCSSTE-E</p>
+                  <p>Positions Occupied:</p>
+                  <p><b>Assistant General Secretary 2018-2019</b></p>
+                  <p><b>Affair Secretary 2019-2020</b></p>
+
+                </div>
+            </div>
+            
+
+
+            <hr/>
+          
+            <hr/>
+            <h4>Conferences</h4>
+            <hr>
+            <div class="row">
+                <div class="col-md-2">
+                   <p>2013-06</p>
+                </div>
+                <div class="col-md-10">
+                    <h4>Company Name</h4>
+                    <ul>
+                    <li><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, sequi?</p></li> 
+                  <li><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, sequi?</p></li> 
+               <li><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, sequi?</p></li> 
+                  <li><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, sequi?</p></li> 
+                    </ul>
+                </div>
+            </div>
+            <hr/>
+            <h4>Aditional Activities</h4>
+            <hr>
+            <div class="row">
+                <div class="col-md-2">
+                   <p></p>
+                </div>
+                <div class="col-md-10">
+                    <ul>
+                    <li><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, sequi?</p></li> 
+               <li><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, sequi?</p></li> 
+                  <li><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, sequi?</p></li> 
+                    </ul>
+                </div>
+            </div>
+
+            <hr/>
+            <h4>Interests</h4>
+            <hr>
+            <div class="row">
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-10">
+
+                    <ul>
+                        <li>blogging</li>
+                        <li>Listening to Electronic Music</li>
+                        <li>Playing Video games</li>
+                        <li>Yoga Meditation</li>
+                        <li>Swimming and hiking</li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+      </div>
+  </div>
+</body>
