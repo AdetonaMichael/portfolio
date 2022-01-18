@@ -10,9 +10,7 @@ body #home{
 #home .img-thumbnail{
 	background:transparent;
 }
-body #skills{
 
-}
 body #about{
 	background-color:white;
 
@@ -26,12 +24,7 @@ body #services{
 	background-color:black;
 	background-attachment:fixed;
 }
-body #contact{
 
-
-}
-body #portfolio{
-}
 
 @media (min-width:992px){
 		.navbar-nav .nav-link:hover{
